@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mad Lib</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = "head">
+        <div id = "header-name">Mad Lib Generator</div>
+    </div>
+    <div id = "explanation">
+        <p id = "explain">Mad Libs are stories with certain types of words missing, which you fill in on your own; the results are supposed to be funny, but often just kind of stupid.  Try putting in some of your own words (four per type of word, a comma between each word and NO SPACE). Choose a story for them to be plugged into, then just hit the Generate! button.  WE WILL HAVE SECONDS OF MILD ENTERTAINMENT.</p>
+
+    </div>
+   <div id = "enter">
+       <div id ="enter-nouns">Nouns</div>
+       <input id= 'input-nouns'></input>
+       <div id ="enter-verbs">Verbs</div>
+       <input id= 'input-verbs'></input>
+       <div id ="enter-adjectives">Adjectives</div>
+       <input id= 'input-adjectives'></input>
+       <div id ="enter-adverbs">Adverbs</div>
+        <input id= 'input-adverbs'></input>
+   </div> 
+   <div id = "choose-story">
+        <input id= 'christmas-button' type="radio" name='story'  value = 'christmas' style="font-family: fantasy"> 
+        <p id = 'christmas-name'>Christmas</p>
+        <input id = 'shopping-button' type="radio" name='story'  value = 'shopping' style="font-family: fantasy"> 
+        <p id = 'shopping-name'>Shopping</p>
+        <input id = 'brainstorming-button' type="radio" name='story' value = 'brainstorm' style="font-family: fantasy">
+        <p id = 'brain-name'>Brainstorming</p> 
+    </div>
+    <div id = "press">
+        <button id ='generate'>Generate!</button>
+    </div>
+    <div id = "name-add">
+
+        
+    </div>
+<script type ="text/javascript" src="stories.js"></script>
+<script type ="text/javascript" src="script.js"></script>
+</body>
+</html>

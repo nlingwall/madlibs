@@ -1,0 +1,160 @@
+body{
+    margin:0;
+}
+
+#head{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: tomato;
+}
+
+#header-name{
+    font-family: Comic Sans MS;
+    font-size: 3em;
+    color:white;
+}
+
+#explanation{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: seagreen;
+}
+
+#explain{
+    width: 600px;
+    font-size:1.5em;
+    font-family:fantasy;
+    color:white;
+
+}
+
+#enter{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: darkblue;
+}
+
+#enter-nouns{
+    color:white;
+    font-family: Comic Sans MS;
+    margin: 20px;
+}
+
+#enter-verbs{
+    color:white;
+    font-family: Comic Sans MS;
+    margin: 20px;
+}
+
+#enter-adjectives{
+    color:white;
+    font-family: Comic Sans MS;
+    margin: 20px;
+}
+
+#enter-adverbs{
+    color:white;
+    font-family: Comic Sans MS;
+    margin: 20px;
+}
+
+#input-nouns{
+    width: 200px;
+    font-family: papyrus;
+    font-size: 1em;
+}
+
+#input-verbs{
+    width: 200px;
+    font-family: papyrus;
+    font-size: 1em;
+}
+
+#input-adjectives{
+    width: 200px;
+    font-family: papyrus;
+    font-size: 1em;
+}
+
+#input-adverbs{
+    width: 200px;
+    font-family: papyrus;
+    font-size: 1em;
+}
+
+#choose-story{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: tomato;
+}
+
+#christmas-button{
+    margin: 41px;
+    transform: scale(1.5);
+ 
+}
+
+#shopping-button{
+    margin: 41px;
+    transform: scale(1.5);
+}
+
+#brainstorming-button{
+    margin: 41px;
+    transform: scale(1.5);
+}
+
+#christmas-name{
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+
+#shopping-name{
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+
+#brain-name{
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+
+#press{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+}
+
+#generate{
+    background-color: gray; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    border: 10px;
+    margin: 30px;
+}
+
+#name-add{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+}
+
+#madLibs{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+    font-size: 2.5em;
+}
